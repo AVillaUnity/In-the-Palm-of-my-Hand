@@ -108,7 +108,6 @@ GameObject:
   - component: {fileID: 5588897331445394937}
   - component: {fileID: 5588897331445394938}
   - component: {fileID: 5588897331445394939}
-  - component: {fileID: 5588897331445394936}
   - component: {fileID: 5588897331445394941}
   m_Layer: 0
   m_Name: Planet Model
@@ -176,19 +175,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &5588897331445394936
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5588897331445394822}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5588897331445394941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,4 +188,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7586daf4b0d9fe46b0823b5803295bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 20
+  initialSpeed: 10
+  randomRotation: 0

@@ -6,6 +6,7 @@ using UnityEngine;
 public class SpawnOrbs : MonoBehaviour
 {
     public ObjectPooler orbPooler;
+    public Transform[] orbSpawnPoints;
 
     private Entrance entrance;
 
@@ -17,14 +18,15 @@ public class SpawnOrbs : MonoBehaviour
 
     void Spawn() {
 
-        int keyIndex = Random.Range(0, transform.childCount);
-        for(int i = 0; i < transform.childCount; i++)
+        int keyIndex = Random.Range(0, orbSpawnPoints.Length);
+
+        for(int i = 0; i < orbSpawnPoints.Length; i++)
         {
             GameObject orbObj = orbPooler.GetObject();
             Orb orb = orbObj.GetComponent<Orb>();
 
-            orbObj.transform.parent = orbPooler.activeParent;
-            orbObj.transform.position = transform.GetChild(i).position;
+            orbObj.transform.parent = orbSpawnPoints[i];
+            orbObj.transform.position = orbSpawnPoints[i].position;
 
             orb.entrance = entrance;
             if(i == keyIndex)
@@ -32,6 +34,15 @@ public class SpawnOrbs : MonoBehaviour
                 orb.SetAsKey();
             }
             orbObj.SetActive(true);
+        }
+    }
+
+    public void RemoveOrbs()
+    {
+        foreach(Transform t in orbSpawnPoints)
+        {
+            Orb orb = GetComponentInChildren<Orb>();
+            if (orb) { orb.ResetOrb(); }
         }
     }
 }
