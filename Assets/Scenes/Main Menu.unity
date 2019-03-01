@@ -168,7 +168,7 @@ MonoBehaviour:
   - name: Theme
     clip: {fileID: 8300000, guid: d39bf0759fb32b7448cc85bd9b458c97, type: 3}
     loop: 1
-    volume: 1
+    volume: 0.5
     pitch: 1
     spatialBlend: 0
     source: {fileID: 0}
@@ -327,6 +327,7 @@ GameObject:
   - component: {fileID: 850686969}
   - component: {fileID: 850686968}
   - component: {fileID: 850686970}
+  - component: {fileID: 850686971}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -376,6 +377,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toggle: {fileID: 868339549}
+--- !u!114 &850686971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850686967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 2b283b34c0a6e7543bb9978cd913dbd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  hightScoreText: {fileID: 936211629680869404}
+  lastScoreText: {fileID: 0}
 --- !u!114 &868339549 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
@@ -722,6 +739,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: m_IsOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: toggleTransition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 850686970}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Toggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 936211629070074099, guid: 9c08b933939d01643ae1a39fdb9a46a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -792,51 +854,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 850686968}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: m_IsOn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: toggleTransition
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: m_Colors.m_ColorMultiplier
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 850686970}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Toggle
-      objectReference: {fileID: 0}
-    - target: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 936211628537707825, guid: 9c08b933939d01643ae1a39fdb9a46a1,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -884,3 +901,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c08b933939d01643ae1a39fdb9a46a1, type: 3}
+--- !u!114 &936211629680869404 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4278949462086796663, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+    type: 3}
+  m_PrefabInstance: {fileID: 936211629680869403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

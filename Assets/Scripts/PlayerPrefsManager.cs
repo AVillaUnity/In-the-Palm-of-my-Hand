@@ -7,29 +7,31 @@ public class PlayerPrefsManager : MonoBehaviour {
     const string TUTORIAL = "tutorial";
 
 
-    // Highscore
-    public static void SetHighscore(float value)
+    #region Highscore
+    public static void SetHighscore(int value)
     {
         if (value >= 0)
-            PlayerPrefs.SetFloat(HIGHSCORE_KEY, value);
+            PlayerPrefs.SetInt(HIGHSCORE_KEY, value);
     }
 
-    public static float GetHighscore()
+    public static int GetHighscore()
     {
-        return PlayerPrefs.GetFloat(HIGHSCORE_KEY, 0);
+        return PlayerPrefs.GetInt(HIGHSCORE_KEY, 0);
     }
-
-    public static void SetLastscore(float value)
+    #endregion
+    #region LastScore
+    public static void SetLastscore(int value)
     {
         if (value >= 0)
-            PlayerPrefs.SetFloat(HIGHSCORE_KEY, value);
+            PlayerPrefs.SetInt(LASTSCORE_KEY, value);
     }
 
     public static float GetLastscore()
     {
-        return PlayerPrefs.GetFloat(HIGHSCORE_KEY, 0);
+        return PlayerPrefs.GetInt(LASTSCORE_KEY, 0);
     }
-
+    #endregion
+    #region Tutorial
     public static void SetTutorial(bool value)
     {
         if (value)
@@ -53,6 +55,7 @@ public class PlayerPrefsManager : MonoBehaviour {
             return false;
         }
     }
+    #endregion 
 
 
 

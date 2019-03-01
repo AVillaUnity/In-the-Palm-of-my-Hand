@@ -11,11 +11,11 @@ public class GameOver : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        LaunchReady planet = other.GetComponent<LaunchReady>();
         if (other.GetComponent<LaunchPlanet>())
         {
-            print("GameOver");
+            planet.Die();
             Destroy(other.gameObject);
-            // Wait for destruction animation
             Invoke("LoseGame", 0f);
         }
     }

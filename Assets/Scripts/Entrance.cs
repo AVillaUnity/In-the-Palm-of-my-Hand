@@ -8,14 +8,17 @@ public class Entrance : MonoBehaviour
     public bool isOpen = false;
     public MeshRenderer meshRenderer;
     public SpawnOrbs orbSpawner;
+    public int scoreForEntrance = 3;
 
     private SpawnPlanet planetSpawner;
     private ActivateHole activateHole;
     private float emmisionValue = 2f;
     private GameManager gameManager;
+    private ScoreManager scoreManager;
 
     private void Start()
     {
+        scoreManager = ScoreManager.instance;
         activateHole = GetComponentInParent<ActivateHole>();
         planetSpawner = GameObject.FindObjectOfType<SpawnPlanet>();
         orbSpawner = GetComponent<SpawnOrbs>();
@@ -34,11 +37,12 @@ public class Entrance : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<LaunchPlanet>())
+        LaunchReady planet = other.GetComponent<LaunchReady>();
+        if (planet)
         {
             if (isOpen)
             {
-                print("Planet Entered Hole");
+                scoreManager.IncrementScore(scoreForEntrance);
                 orbSpawner.RemoveOrbs();
                 planetSpawner.Spawn();
                 isOpen = false;
@@ -47,9 +51,7 @@ public class Entrance : MonoBehaviour
             }
             else
             {
-                print("Planet did not enter hole");
-                // TODO Add destruction effect
-                // Wait for destruction animation
+                planet.Die();
                 Invoke("LoseGame", 0f);
             }
 

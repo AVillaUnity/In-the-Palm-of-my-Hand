@@ -206,7 +206,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 8818988356395502392}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 8818988356395502393}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_GeneratorAsset: {fileID: 0}
@@ -844,7 +844,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 00000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1130eab945598c4da190fb350056eb2, type: 2}
   m_sharedMaterial: {fileID: 7398968867893417498, guid: d1130eab945598c4da190fb350056eb2,
@@ -914,7 +914,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1598392860}
-    characterCount: 5
+    characterCount: 1
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -1824,3 +1824,25 @@ PrefabInstance:
       objectReference: {fileID: 2203717110139573634}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b69f33104a636c54e813fde1317172c2, type: 3}
+--- !u!1 &8818988356395502393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8818988356787660340, guid: b69f33104a636c54e813fde1317172c2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8818988356395502392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8818988356395502394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818988356395502393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 2b283b34c0a6e7543bb9978cd913dbd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  hightScoreText: {fileID: 0}
+  lastScoreText: {fileID: 1598392860}

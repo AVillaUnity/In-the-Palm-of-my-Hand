@@ -82,6 +82,9 @@ MonoBehaviour:
   speed: 10
   isReady: 0
   targetPosition: {fileID: 0}
+  explosion: {fileID: 6349564078369765600, guid: 323153dea3c5d5c49a2a2b0f3c66d3be,
+    type: 3}
+  explosiveMaterial: {fileID: 2100000, guid: 0d749a73beea3dd40800b1c9fa4cbcb5, type: 2}
 --- !u!114 &5588897329348041960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,3 +193,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 0
+  rotateAroundSun: 0

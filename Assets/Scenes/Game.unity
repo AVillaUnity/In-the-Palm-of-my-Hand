@@ -515,6 +515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &187132031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -612,6 +613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &217873729 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1288633026, guid: d052e3fbbc0929a408e720b491187572,
@@ -633,6 +635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &218867961 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1288633026, guid: d052e3fbbc0929a408e720b491187572,
@@ -654,6 +657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &273264839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -751,6 +755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &294178086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -848,6 +853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &304861135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -945,6 +951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &307428808
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,6 +1081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &331199508 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1084553192, guid: 2934d248fbf71ae43908c5dba87ac6e5,
@@ -1095,6 +1103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &342083838 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 347994894882571942, guid: 43235565fd34b2f438e585ceac3ac9ac,
@@ -1128,6 +1137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &384653523 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1288633026, guid: d052e3fbbc0929a408e720b491187572,
@@ -1149,6 +1159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &417720564 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 417720564, guid: 2fc980a18c45f164494cf3641283f7b3,
@@ -1347,6 +1358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &461329859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1444,6 +1456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &533937741 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2095414199, guid: a60a8f0bf6c2c2e43959578425ce1015,
@@ -1465,6 +1478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &549786040 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2023517905, guid: 1d7cf80ff985b3d4da86a46d77ed1a1e,
@@ -1486,6 +1500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &583554220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1583,6 +1598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &633022706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1680,6 +1696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &664403263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1687137008, guid: 087932bfd0e7db149b7e604943e47caf,
@@ -1701,6 +1718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &664887214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2094,6 +2112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &780834528 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1687137008, guid: 087932bfd0e7db149b7e604943e47caf,
@@ -2115,6 +2134,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
+--- !u!1 &785631712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 785631713}
+  - component: {fileID: 785631714}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &785631713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785631712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1442222001}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &785631714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785631712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 2b283b34c0a6e7543bb9978cd913dbd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 78855019}
+  hightScoreText: {fileID: 0}
+  lastScoreText: {fileID: 0}
 --- !u!1001 &828455747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2212,6 +2279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &863567283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2385,6 +2453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &924951699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2558,6 +2627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &954617015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2661,6 +2731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &979859365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3016,6 +3087,16 @@ PrefabInstance:
       propertyPath: orbPooler
       value: 
       objectReference: {fileID: 1569612451}
+    - target: {fileID: 373506129705588084, guid: 43235565fd34b2f438e585ceac3ac9ac,
+        type: 3}
+      propertyPath: sun
+      value: 
+      objectReference: {fileID: 1391847661}
+    - target: {fileID: 5484583555330966992, guid: 43235565fd34b2f438e585ceac3ac9ac,
+        type: 3}
+      propertyPath: sun
+      value: 
+      objectReference: {fileID: 1391847661}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43235565fd34b2f438e585ceac3ac9ac, type: 3}
 --- !u!1 &1081536130
@@ -3088,6 +3169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 0
+  rotateAroundSun: 0
 --- !u!1 &1141008042 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1605025214, guid: 345663e86a7f60545b8ec4a8ef734d07,
@@ -3109,6 +3191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &1169267095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3282,6 +3365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1270138911 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1605025214, guid: 345663e86a7f60545b8ec4a8ef734d07,
@@ -3303,6 +3387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &1282311768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3865,6 +3950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!4 &1391847661 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1061721284811653072, guid: 862fd7bb6b169024cb17527a5f8fd293,
@@ -3904,6 +3990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1442222000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3933,6 +4020,7 @@ Transform:
   m_Children:
   - {fileID: 1750719827}
   - {fileID: 1964072836}
+  - {fileID: 785631713}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4295,6 +4383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1563448475 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1687137008, guid: 087932bfd0e7db149b7e604943e47caf,
@@ -4316,6 +4405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &1569502538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4464,6 +4554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1574431196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2023517905, guid: 1d7cf80ff985b3d4da86a46d77ed1a1e,
@@ -4485,6 +4576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1584204847 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1288633026, guid: d052e3fbbc0929a408e720b491187572,
@@ -4506,6 +4598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1643811909
 GameObject:
   m_ObjectHideFlags: 0
@@ -4673,6 +4766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &1666451518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4770,6 +4864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &1672448713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4952,6 +5047,11 @@ PrefabInstance:
       propertyPath: m_Icon
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 373506129705588084, guid: 43235565fd34b2f438e585ceac3ac9ac,
+        type: 3}
+      propertyPath: sun
+      value: 
+      objectReference: {fileID: 1391847661}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43235565fd34b2f438e585ceac3ac9ac, type: 3}
 --- !u!1 &1698762394 stripped
@@ -4975,6 +5075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1744836277 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1605025214, guid: 345663e86a7f60545b8ec4a8ef734d07,
@@ -4996,6 +5097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1750719826
 GameObject:
   m_ObjectHideFlags: 0
@@ -5048,6 +5150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1776677766 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2023517905, guid: 1d7cf80ff985b3d4da86a46d77ed1a1e,
@@ -5069,6 +5172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1776696221 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 785666640, guid: 40cdb1261502c5147946ac48cebac02b,
@@ -5090,6 +5194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1803907855 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1687137008, guid: 087932bfd0e7db149b7e604943e47caf,
@@ -5111,6 +5216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &1813089995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5143,6 +5249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 40
   randomRotation: 0
+  rotateAroundSun: 0
 --- !u!4 &1813089997
 Transform:
   m_ObjectHideFlags: 0
@@ -5383,6 +5490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 0
+  rotateAroundSun: 0
 --- !u!1001 &1881633494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5638,6 +5746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &1976889712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6012,6 +6121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &2041431266 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 114526028, guid: f0b038078591d7441bbc6586bbc421d2,
@@ -6033,6 +6143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &2043335716 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 945401805, guid: a9b2c2ea8472caa40b47a88cf3badc04,
@@ -6054,6 +6165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &2071056472 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 347994894882571942, guid: 43235565fd34b2f438e585ceac3ac9ac,
@@ -6347,6 +6459,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1956456929, guid: 2fc980a18c45f164494cf3641283f7b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956456929, guid: 2fc980a18c45f164494cf3641283f7b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956456929, guid: 2fc980a18c45f164494cf3641283f7b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1108601920, guid: 2fc980a18c45f164494cf3641283f7b3, type: 3}
@@ -6728,6 +6848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1 &2123211583 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2095414199, guid: a60a8f0bf6c2c2e43959578425ce1015,
@@ -6749,6 +6870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialSpeed: 10
   randomRotation: 1
+  rotateAroundSun: 0
 --- !u!1001 &2136192300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6938,22 +7060,22 @@ PrefabInstance:
     - target: {fileID: 968109567709564161, guid: 37f51b0a3c778b647a35b452236aeac1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.27059805
+      value: -0.38770798
       objectReference: {fileID: 0}
     - target: {fileID: 968109567709564161, guid: 37f51b0a3c778b647a35b452236aeac1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6532815
+      value: 0.35134256
       objectReference: {fileID: 0}
     - target: {fileID: 968109567709564161, guid: 37f51b0a3c778b647a35b452236aeac1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.6532815
+      value: 0.8444154
       objectReference: {fileID: 0}
     - target: {fileID: 968109567709564161, guid: 37f51b0a3c778b647a35b452236aeac1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.27059805
+      value: 0.114907086
       objectReference: {fileID: 0}
     - target: {fileID: 968109567709564161, guid: 37f51b0a3c778b647a35b452236aeac1,
         type: 3}
@@ -6963,17 +7085,17 @@ PrefabInstance:
     - target: {fileID: 968109567709564161, guid: 37f51b0a3c778b647a35b452236aeac1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
+      value: -43.036003
       objectReference: {fileID: 0}
     - target: {fileID: 968109567709564161, guid: 37f51b0a3c778b647a35b452236aeac1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -51.753002
       objectReference: {fileID: 0}
     - target: {fileID: 968109567709564161, guid: 37f51b0a3c778b647a35b452236aeac1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 135
+      value: 186.15599
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37f51b0a3c778b647a35b452236aeac1, type: 3}
@@ -6987,6 +7109,11 @@ PrefabInstance:
     - target: {fileID: 1061721284811653073, guid: 862fd7bb6b169024cb17527a5f8fd293,
         type: 3}
       propertyPath: m_Name
+      value: Sun
+      objectReference: {fileID: 0}
+    - target: {fileID: 1061721284811653073, guid: 862fd7bb6b169024cb17527a5f8fd293,
+        type: 3}
+      propertyPath: m_TagString
       value: Sun
       objectReference: {fileID: 0}
     - target: {fileID: 1061721284811653072, guid: 862fd7bb6b169024cb17527a5f8fd293,
@@ -7383,6 +7510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035548384133540474, guid: 5f8271cc9ff68814591576e774c02f5c,
+        type: 3}
+      propertyPath: field of view
+      value: 39
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f8271cc9ff68814591576e774c02f5c, type: 3}
