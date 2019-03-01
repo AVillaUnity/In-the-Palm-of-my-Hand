@@ -12,12 +12,14 @@ public class Entrance : MonoBehaviour
     private SpawnPlanet planetSpawner;
     private ActivateHole activateHole;
     private float emmisionValue = 2f;
+    private GameManager gameManager;
 
     private void Start()
     {
         activateHole = GetComponentInParent<ActivateHole>();
         planetSpawner = GameObject.FindObjectOfType<SpawnPlanet>();
         orbSpawner = GetComponent<SpawnOrbs>();
+        gameManager = GameObject.FindObjectOfType<GameManager>();
 
         meshRenderer.material.SetColor("_EmissionColor", Color.red * emmisionValue);
     }
@@ -37,19 +39,27 @@ public class Entrance : MonoBehaviour
             if (isOpen)
             {
                 print("Planet Entered Hole");
+                orbSpawner.RemoveOrbs();
+                planetSpawner.Spawn();
+                isOpen = false;
+                activateHole.Activate();
+                // TODO: Add entrance effect
             }
             else
             {
                 print("Planet did not enter hole");
+                // TODO Add destruction effect
+                // Wait for destruction animation
+                Invoke("LoseGame", 0f);
             }
 
             Destroy(other.gameObject);
             meshRenderer.material.SetColor("_EmissionColor", Color.red * emmisionValue);
-            orbSpawner.RemoveOrbs();
-            planetSpawner.Spawn();
-            activateHole.Activate();
-
         }
+    }
 
+    void LoseGame()
+    {
+        gameManager.LoadLevel("Lose Screen");
     }
 }
