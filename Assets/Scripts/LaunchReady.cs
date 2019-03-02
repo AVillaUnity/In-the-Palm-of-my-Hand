@@ -13,11 +13,13 @@ public class LaunchReady : MonoBehaviour
 
     private Rigidbody rb;
     private MeshRenderer meshRenderer;
+    private AudioManager audioManager;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         meshRenderer = GetComponentInChildren<MeshRenderer>();
+        audioManager = GameObject.FindObjectOfType<AudioManager>();
         rb.detectCollisions = false;
     }
 
@@ -45,5 +47,9 @@ public class LaunchReady : MonoBehaviour
     public void Die()
     {
         Instantiate(explosion, transform.position, Quaternion.identity);
+        if (audioManager)
+        {
+            audioManager.Play("Explosion");
+        }
     }
 }

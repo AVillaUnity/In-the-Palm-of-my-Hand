@@ -172,6 +172,13 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: c4b4c461195f775459a36c0eb5d7803f, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
 --- !u!4 &370322120 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8035548384133540475, guid: 5f8271cc9ff68814591576e774c02f5c,
