@@ -21,6 +21,18 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void CheckTutorial()
+    {
+        if (PlayerPrefsManager.GetTutorial())
+        {
+            LoadLevel("Tutorial");
+        }
+        else
+        {
+            LoadLevel("Game");
+        }
+    }
+
     private void ChangeLevel()
     {
         SceneManager.LoadScene(levelToChange);

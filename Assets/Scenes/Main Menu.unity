@@ -400,6 +400,7 @@ MonoBehaviour:
   scoreText: {fileID: 0}
   hightScoreText: {fileID: 936211629680869404}
   lastScoreText: {fileID: 0}
+  rockSpawner: {fileID: 0}
 --- !u!114 &868339549 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 936211629566490153, guid: 9c08b933939d01643ae1a39fdb9a46a1,
@@ -846,6 +847,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 850686968}
+    - target: {fileID: 936211628751270688, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CheckTutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 936211628751270688, guid: 9c08b933939d01643ae1a39fdb9a46a1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 936211628485779883, guid: 9c08b933939d01643ae1a39fdb9a46a1,
         type: 3}
       propertyPath: m_havePropertiesChanged

@@ -6,7 +6,7 @@ public class Entrance : MonoBehaviour
 {
     [HideInInspector]
     public bool isOpen = false;
-    public MeshRenderer meshRenderer;
+    public GameObject blackHole;
     public SpawnOrbs orbSpawner;
     public int scoreForEntrance = 3;
 
@@ -15,6 +15,10 @@ public class Entrance : MonoBehaviour
     private float emmisionValue = 2f;
     private GameManager gameManager;
     private ScoreManager scoreManager;
+    private MeshRenderer holeMeshRenderer;
+    private ParticleSystemRenderer holeParticleSystem;
+
+
 
     private void Start()
     {
@@ -24,13 +28,17 @@ public class Entrance : MonoBehaviour
         orbSpawner = GetComponent<SpawnOrbs>();
         gameManager = GameObject.FindObjectOfType<GameManager>();
 
-        meshRenderer.material.SetColor("_EmissionColor", Color.red * emmisionValue);
+        holeMeshRenderer = blackHole.GetComponent<MeshRenderer>();
+        holeParticleSystem = blackHole.GetComponent<ParticleSystemRenderer>();
+        holeMeshRenderer.material.SetColor("_EmissionColor", Color.red * emmisionValue);
+        holeParticleSystem.material.SetColor("_EmissionColor", Color.red * emmisionValue);
     }
 
     public void OpenHole()
     {
         isOpen = true;
-        meshRenderer.material.SetColor("_EmissionColor", Color.green * emmisionValue);
+        holeMeshRenderer.material.SetColor("_EmissionColor", Color.green * emmisionValue);
+        holeParticleSystem.material.SetColor("_EmissionColor", Color.green * emmisionValue);
 
     }
 
@@ -56,7 +64,8 @@ public class Entrance : MonoBehaviour
             }
 
             Destroy(other.gameObject);
-            meshRenderer.material.SetColor("_EmissionColor", Color.red * emmisionValue);
+            holeMeshRenderer.material.SetColor("_EmissionColor", Color.red * emmisionValue);
+            holeParticleSystem.material.SetColor("_EmissionColor", Color.red * emmisionValue);
         }
     }
 

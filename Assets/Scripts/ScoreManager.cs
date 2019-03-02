@@ -15,7 +15,10 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI hightScoreText;
     public TextMeshProUGUI lastScoreText;
+    public SpawnRocks rockSpawner;
+
     private int score = 0;
+    private int scoreLevelChange = 20;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,7 @@ public class ScoreManager : MonoBehaviour
             lastScoreText.text = PlayerPrefsManager.GetLastscore().ToString();
         }
 
+        SpawnRocks.rocksSpawned = 0;
     }
 
     public void IncrementScore(int value)
@@ -43,5 +47,11 @@ public class ScoreManager : MonoBehaviour
         {
             PlayerPrefsManager.SetHighscore(score);
         }
+
+            if (score >= scoreLevelChange && SpawnRocks.rocksSpawned < rockSpawner.rocks.Length)
+            {
+                scoreLevelChange += scoreLevelChange;
+                rockSpawner.Spawn();
+            }
     }
 }

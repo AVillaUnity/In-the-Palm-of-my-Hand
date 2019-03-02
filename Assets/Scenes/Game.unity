@@ -2182,6 +2182,7 @@ MonoBehaviour:
   scoreText: {fileID: 78855019}
   hightScoreText: {fileID: 0}
   lastScoreText: {fileID: 0}
+  rockSpawner: {fileID: 0}
 --- !u!1001 &828455747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3097,6 +3098,11 @@ PrefabInstance:
       propertyPath: sun
       value: 
       objectReference: {fileID: 1391847661}
+    - target: {fileID: 726261110672733387, guid: 43235565fd34b2f438e585ceac3ac9ac,
+        type: 3}
+      propertyPath: m_Name
+      value: CollisionRocks2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43235565fd34b2f438e585ceac3ac9ac, type: 3}
 --- !u!1 &1081536130
@@ -3611,6 +3617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 726261110672733387, guid: 43235565fd34b2f438e585ceac3ac9ac,
+        type: 3}
+      propertyPath: m_Name
+      value: CollisionRocks4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43235565fd34b2f438e585ceac3ac9ac, type: 3}
@@ -5022,6 +5033,11 @@ PrefabInstance:
       propertyPath: orbPooler
       value: 
       objectReference: {fileID: 1569612451}
+    - target: {fileID: 373506129705588084, guid: 43235565fd34b2f438e585ceac3ac9ac,
+        type: 3}
+      propertyPath: sun
+      value: 
+      objectReference: {fileID: 1391847661}
     - target: {fileID: 347994894524401877, guid: 43235565fd34b2f438e585ceac3ac9ac,
         type: 3}
       propertyPath: m_Icon
@@ -5047,11 +5063,11 @@ PrefabInstance:
       propertyPath: m_Icon
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 373506129705588084, guid: 43235565fd34b2f438e585ceac3ac9ac,
+    - target: {fileID: 726261110672733387, guid: 43235565fd34b2f438e585ceac3ac9ac,
         type: 3}
-      propertyPath: sun
-      value: 
-      objectReference: {fileID: 1391847661}
+      propertyPath: m_Name
+      value: CollisionRocks3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43235565fd34b2f438e585ceac3ac9ac, type: 3}
 --- !u!1 &1698762394 stripped
@@ -7028,6 +7044,11 @@ PrefabInstance:
       propertyPath: orbPooler
       value: 
       objectReference: {fileID: 1569612451}
+    - target: {fileID: 726261110672733387, guid: 43235565fd34b2f438e585ceac3ac9ac,
+        type: 3}
+      propertyPath: m_Name
+      value: CollisionRocks
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43235565fd34b2f438e585ceac3ac9ac, type: 3}
 --- !u!1001 &968109566688276032
